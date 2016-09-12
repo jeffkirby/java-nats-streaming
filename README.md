@@ -8,6 +8,9 @@ NATS Streaming is an extremely performant, lightweight reliable streaming platfo
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.nats/java-nats-streaming/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.nats/java-nats-streaming)
 [![Javadoc](http://javadoc.io/badge/io.nats/java-nats-streaming.svg)](http://javadoc.io/doc/io.nats/java-nats-streaming)
 
+## Fork Note
+This forked version fixes [issue 26](https://github.com/nats-io/java-nats-streaming/issues/26) so that the connections properly close
+
 ## Installation
 
 Install the client jar:
@@ -25,9 +28,9 @@ Load the following dependency in your project's pom.xml:
   <dependencies>
     ...
     <dependency>
-      <groupId>io.nats</groupId>
+      <groupId>io.nats.kirby</groupId>
       <artifactId>java-nats-streaming</artifactId>
-      <version>0.1.0-SNAPSHOT</version>
+      <version>0.2.1.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
 ```
